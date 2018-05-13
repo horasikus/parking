@@ -1,0 +1,13 @@
+{
+  "db": {
+    "host": "",
+    "port": 0,
+    "url": "",
+    "database": "",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "connector": "mongodb",
+    "url": "mongodb://heroku_6dxqnmf5:uc955f3bdn90qe9iss4dbifvak@ds119060.mlab.com:19060/heroku_6dxqnmf5"
+  }
+}
