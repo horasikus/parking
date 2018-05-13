@@ -1,0 +1,11 @@
+{
+  "loopback-component-explorer": {
+    "mountPath": "/explorer",
+    "generateOperationScopedModels": true,
+    "uiDirs": "server/explorer",
+    "apiInfo": {
+      "title": "Parking API",
+      "description": "Management of the parking service"
+    }
+  }
+}
