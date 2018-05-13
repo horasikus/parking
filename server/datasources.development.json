@@ -5,7 +5,7 @@
     "url": "mongodb://heroku_6dxqnmf5:uc955f3bdn90qe9iss4dbifvak@ds119060.mlab.com:19060/heroku_6dxqnmf5",
     "database": "",
     "password": "",
-    "name": "heroku",
+    "name": "db",
     "user": "",
     "connector": "mongodb"
   }
