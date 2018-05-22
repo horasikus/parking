@@ -14,31 +14,38 @@
       "index": true
     },
     "model": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "description": {
       "type": "string"
     },
     "status": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "address": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "geolocation": {
       "type": {
         "lat": {
-          "type": "number"
+          "type": "number",
+          "required": true
+
         },
         "lng": {
-          "type": "number"
+          "type": "number",
+          "required": true
         }
-      }
+      },
+      "required": true
     },
-    "zone": {
+    "areaType": {
       "type": "string"
     },
-    "size": {
+    "parkingSpaces": {
       "type": "number",
       "default": 0
     },
@@ -47,11 +54,16 @@
         "string"
       ]
     },
-    "startDate": {
-      "type": "date"
+    "commissioningDate": {
+      "type": "date",
+      "required": true
     },
-    "lastUpdatedDate": {
-      "type": "date"
+    "lastCommunicationDate": {
+      "type": "date",
+      "required": true
+    },
+    "comments": {
+      "type": "string"
     }
   },
   "validations": [],

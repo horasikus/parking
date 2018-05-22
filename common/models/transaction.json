@@ -13,7 +13,7 @@
       "required": true,
       "index": true
     },
-    "parkimeter_id": {
+    "parkingMeter_id": {
       "type": "number",
       "required": true
     },
@@ -29,21 +29,26 @@
       "type": "date",
       "required": true
     },
-    "paidTime": {
+    "paidMinutes": {
       "type": "number",
       "required": true
     },
-    "freeBookingTime": {
+    "freeMinutes": {
       "type": "number",
       "required": true
     },
     "rate": {
       "type": "number",
-      "required": true
+      "required": true,
+      "enum": [
+        "blue",
+        "green resident",
+        "green non-resident",
+        "other"
+      ]
     },
     "customer_id": {
-      "type": "number",
-      "required": true
+      "type": "number"
     },
     "customerType": {
       "type": "string"
@@ -58,10 +63,19 @@
     },
     "paymentType": {
       "type": "string",
-      "required": true
+      "required": true,
+      "enum": [
+        "parkingMeter",
+        "app",
+        "other"
+      ]
     },
     "paymentMethod": {
       "type": "string",
+      "required": true
+    },
+    "totalMinutes": {
+      "type": "number",
       "required": true
     }
   },

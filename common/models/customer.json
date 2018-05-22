@@ -14,6 +14,9 @@
       "index": true
     },
     "name": {
+      "type": "string"
+    },
+    "licensePlate": {
       "type": "string",
       "required": true
     }
