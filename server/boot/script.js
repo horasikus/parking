@@ -5,7 +5,8 @@ module.exports = function (app) {
 
   User.create([
     {username: 'miquel.montaner', email: 'miquel@cumlaude.tech', password: 'm1qu3l'},
-    {username: 'horacio.lagandara', email: 'hglagan@gmail.com', password: 'm1st3r10'}
+    {username: 'horacio.lagandara', email: 'hglagan@gmail.com', password: 'm1st3r10'},
+    {username: 'eymbert.fisersa', email: 'eymbert.fisersa@gmail.com', password: 'f1s3rs@'}
   ], function (err, users) {
     if (err) throw err;
 
@@ -30,6 +31,14 @@ module.exports = function (app) {
       role.principals.create({
         principalType: RoleMapping.USER,
         principalId: users[1].id
+      }, function (err, principal) {
+        if (err) throw err;
+        console.log('Created principal:', principal);
+      });
+
+      role.principals.create({
+        principalType: RoleMapping.USER,
+        principalId: users[2].id
       }, function (err, principal) {
         if (err) throw err;
         console.log('Created principal:', principal);
