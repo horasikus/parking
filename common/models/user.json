@@ -3,7 +3,13 @@
     {
       "principalType": "ROLE",
       "principalId": "$everyone",
-      "permission": "DENY"
+      "permission": "ALLOW"
+    },
+    {
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "DENY",
+      "property": "create"
     },
     {
       "principalType": "ROLE",
