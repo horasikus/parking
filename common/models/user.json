@@ -1,13 +1,13 @@
 {
   "acls": [
     {
-      "accessType": "*",
+      "accessType": "replaceOrCreate",
       "principalType": "ROLE",
       "principalId": "$everyone",
       "permission": "DENY"
     },
     {
-      "accessType": "*",
+      "accessType": "replaceOrCreate",
       "principalType": "ROLE",
       "principalId": "admin",
       "permission": "ALLOW"
