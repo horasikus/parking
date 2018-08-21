@@ -39,4 +39,28 @@ module.exports = function (app) {
   User.disableRemoteMethod('__findById__accessTokens', false);
   User.disableRemoteMethod('__get__accessTokens', false);
   User.disableRemoteMethod('__updateById__accessTokens', false);
+
+  User.observe('after save', function function_name(ctx, next) {
+    if (ctx.instance) {
+      if (ctx.isNewInstance) {
+        // look up role based on type
+        Role.find({where: {name: 'admin'}}, function (err, role) {
+          if (err) {
+            return console.log(err);
+          }
+          RoleMapping.create({
+            principalType: "USER",
+            principalId: ctx.instance.id,
+            roleId: role.id
+          }, function (err, roleMapping) {
+            if (err) {
+              return console.log(err);
+            }
+            console.log('User assigned RoleID ' + role.id + ' (' + ctx.instance.type + ')');
+          });
+        });
+      }
+    }
+    next();
+  });
 }

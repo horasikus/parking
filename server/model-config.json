@@ -26,8 +26,9 @@
   },
   "RoleMapping": {
     "dataSource": "db",
-    "public": false,
+    "public": true,
     "options": {
+      "base": "ACL",
       "strictObjectIDCoercion": true
     }
   },
