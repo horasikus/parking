@@ -1,5 +1,6 @@
 module.exports = function (app) {
   var User = app.models.User;
+  var Role = app.models.Role;
   var RoleMapping = app.models.RoleMapping;
 
   User.disableRemoteMethod('patchAttributes');
@@ -44,13 +45,10 @@ module.exports = function (app) {
   User.observe('after save', function function_name(ctx, next) {
     if (ctx.instance) {
       if (ctx.isNewInstance) {
-        // look up role based on type
         Role.find({where: {name: 'admin'}}, function (err, role) {
-          if (err) {
-            return console.log(err);
-          }
+          if (err) throw err;
           RoleMapping.create({
-            principalType: "USER",
+            principalType: RoleMapping.USER,
             principalId: ctx.instance.id,
             roleId: role.id
           }, function (err, roleMapping) {
