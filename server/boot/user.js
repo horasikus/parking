@@ -3,7 +3,7 @@ module.exports = function (app) {
 
   User.disableRemoteMethod('patchAttributes');
   User.disableRemoteMethodByName('patchOrCreate');
-  User.disableRemoteMethodByName('create');
+  //User.disableRemoteMethodByName('create');
   User.disableRemoteMethodByName('exists');
   User.disableRemoteMethodByName('findById');
   User.disableRemoteMethodByName('deleteById');
@@ -16,7 +16,7 @@ module.exports = function (app) {
   User.disableRemoteMethodByName('replaceOrCreate');
   User.disableRemoteMethodByName('upsertWithWhere');
 
-  User.disableRemoteMethod("create", true);
+  //User.disableRemoteMethod("create", true);
   User.disableRemoteMethod("upsert", true);
   User.disableRemoteMethod("updateAll", true);
   User.disableRemoteMethod("updateAttributes", false);
