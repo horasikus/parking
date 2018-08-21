@@ -47,15 +47,16 @@ module.exports = function (app) {
       if (ctx.isNewInstance) {
         Role.find({where: {name: 'admin'}}, function (err, role) {
           if (err) throw err;
+          console.log(role);
           RoleMapping.create({
             principalType: RoleMapping.USER,
             principalId: ctx.instance.id,
-            roleId: role.instance.id
+            roleId: role.id
           }, function (err, roleMapping) {
             if (err) {
               return console.log(err);
             }
-            console.log('User assigned RoleID ' + role.instance.id + ' (' + ctx.instance.name + ')');
+            console.log('User assigned RoleID ' + role.id + ' (' + ctx.instance.name + ')');
           });
         });
       }
