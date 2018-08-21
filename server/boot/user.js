@@ -50,12 +50,12 @@ module.exports = function (app) {
           RoleMapping.create({
             principalType: RoleMapping.USER,
             principalId: ctx.instance.id,
-            roleId: role.id
+            roleId: role.instance.id
           }, function (err, roleMapping) {
             if (err) {
               return console.log(err);
             }
-            console.log('User assigned RoleID ' + role.id + ' (' + ctx.instance.type + ')');
+            console.log('User assigned RoleID ' + role.instance.id + ' (' + ctx.instance.name + ')');
           });
         });
       }
