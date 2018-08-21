@@ -1,5 +1,6 @@
 module.exports = function (app) {
   var User = app.models.User;
+  var RoleMapping = app.models.RoleMapping;
 
   User.disableRemoteMethod('patchAttributes');
   User.disableRemoteMethodByName('patchOrCreate');
