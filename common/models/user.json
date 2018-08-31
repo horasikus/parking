@@ -1,15 +1,5 @@
 {
   "name": "user",
   "base": "User",
-  "idInjection": true,
-  "options": {
-    "validateUpsert": true
-  },
-  "properties": {
-    "realm": false,
-    "username": null
-  },
-  "options": {
-    "caseSensitiveEmail": false
-  }
+  "excludeBaseProperties": ["realm"]
 }
