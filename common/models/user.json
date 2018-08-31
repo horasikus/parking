@@ -1,5 +1,6 @@
 {
   "name": "user",
   "base": "User",
-  "excludeBaseProperties": ["realm"]
+  "plural": "Users",
+  "excludeBaseProperties": ["realm", "emailVerified"]
 }
