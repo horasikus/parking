@@ -47,8 +47,14 @@
         "other"
       ]
     },
-    "customer_id": {
-      "type": "number"
+    "customerPlate": {
+      "type": "string"
+    },
+    "customerName": {
+      "type": "string"
+    },
+    "customerPhone": {
+      "type": "string"
     },
     "customerType": {
       "type": "string"

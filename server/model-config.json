@@ -42,9 +42,5 @@
   "Transaction": {
     "dataSource": "db",
     "public": true
-  },
-  "Customer": {
-    "dataSource": "db",
-    "public": true
   }
 }
