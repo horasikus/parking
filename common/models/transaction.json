@@ -101,5 +101,9 @@
       "permission": "ALLOW"
     }
   ],
-  "methods": {}
+  "methods": {
+    "post": {
+      "x-ticketNumber-par": "1111"
+    }
+  }
 }
