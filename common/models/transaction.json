@@ -67,6 +67,9 @@
       "type": "number",
       "required": true
     },
+    "paymentID": {
+      "type": "string"
+    },
     "paymentType": {
       "type": "string",
       "required": true,
@@ -103,7 +106,7 @@
   ],
   "methods": {
     "create_post": {
-      "x-ticketNumber-par": "1111"
+      "x-ibm-ticketNumber-par": "1111"
     }
   }
 }
