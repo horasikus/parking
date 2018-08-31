@@ -102,7 +102,7 @@
     }
   ],
   "methods": {
-    "create": {
+    "create_post": {
       "x-ticketNumber-par": "1111"
     }
   }
