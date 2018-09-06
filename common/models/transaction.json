@@ -11,64 +11,79 @@
       "type": "number",
       "id": true,
       "required": true,
-      "index": true
+      "index": true,
+      "description": "ID of the transaction"
     },
     "parkingMeter_id": {
       "type": "number",
-      "required": true
+      "required": true,
+      "description": "ID of the parking meter"
     },
     "date": {
       "type": "date",
-      "required": true
+      "required": true,
+      "description": "date of the transaction (when the user pays the ticket)"
     },
     "bookingStartDate": {
       "type": "date",
-      "required": true
+      "required": true,
+      "description": "datetime when the reservation of the parking starts"
     },
     "bookingEndDate": {
       "type": "date",
-      "required": true
+      "required": true,
+      "description": "datetime when the reservation of the parking ends"
     },
     "paidMinutes": {
       "type": "number",
-      "required": true
+      "required": true,
+      "description": "number of minutes of the reservation into the payment periods"
     },
     "freeMinutes": {
       "type": "number",
-      "required": true
+      "required": true,
+      "description": "number of minutes of the reservation that are free of charge"
     },
     "rate": {
-      "type": "number",
+      "type": "string",
       "required": true,
       "enum": [
         "blue",
         "green resident",
         "green non-resident",
         "other"
-      ]
+      ],
+      "description": "rate type applied to the reservation"
     },
     "customerPlate": {
-      "type": "string"
+      "type": "string",
+      "description": "license plate of the car when applicable"
     },
     "customerName": {
-      "type": "string"
+      "type": "string",
+      "description": "name of the customer when applicable"
     },
     "customerPhone": {
-      "type": "string"
+      "type": "string",
+      "description": "phone of the customer when applicable"
     },
     "customerType": {
-      "type": "string"
+      "type": "string",
+      "description": "type of registered user when applicable"
     },
     "ticketNumber": {
       "type": "number",
-      "required": true
+      "required": true,
+      "description": "number of the ticket of the transaction"
     },
     "price": {
       "type": "number",
-      "required": true
+      "required": true,
+      "description": "total amount payed"
     },
     "paymentID": {
-      "type": "string"
+      "type": "string",
+      "description": "ID of the payment"
     },
     "paymentType": {
       "type": "string",
@@ -77,15 +92,18 @@
         "parkingMeter",
         "app",
         "other"
-      ]
+      ],
+      "description": "origin of the payment"
     },
     "paymentMethod": {
       "type": "string",
-      "required": true
+      "required": true,
+      "description": "method of payment, for example, credit card"
     },
     "totalMinutes": {
       "type": "number",
-      "required": true
+      "required": true,
+      "description": "total of minuted of the reservation (from the starting date to the end date)"
     }
   },
   "validations": [],

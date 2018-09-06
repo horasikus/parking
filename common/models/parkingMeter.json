@@ -11,59 +11,72 @@
       "type": "number",
       "id": true,
       "required": true,
-      "index": true
+      "index": true,
+      "description": "ID of the parking meter"
     },
     "model": {
       "type": "string",
-      "required": true
+      "required": true,
+      "description": "parking meter model"
     },
     "description": {
-      "type": "string"
+      "type": "string",
+      "description": "description of the parking meter"
     },
     "status": {
       "type": "string",
-      "required": true
+      "required": true,
+      "description": "current status of the parking meter"
     },
     "address": {
       "type": "string",
-      "required": true
+      "required": true,
+      "description": "address where the parking meter is installed"
     },
     "geolocation": {
       "type": {
         "lat": {
           "type": "number",
-          "required": true
-
+          "required": true,
+          "description": "latitude where the parking meter is installed"
         },
         "lng": {
           "type": "number",
-          "required": true
+          "required": true,
+          "description": "longitude where the parking meter is installed"
         }
       },
-      "required": true
+      "required": true,
+      "description": "geolocation of the parking meter represented with the inline_model"
     },
     "areaType": {
-      "type": "string"
+      "type": "string",
+      "description": "type of the area where the parking meter is installed, for example, green area"
     },
     "parkingSpaces": {
       "type": "number",
-      "default": 0
+      "default": 0,
+      "description": "number of parking slots that the parking meter covers"
     },
     "paymentOptions": {
       "type": [
         "string"
-      ]
+      ],
+      "description": "payment options of the parking meter, for example, coins or credit card"
     },
     "commissioningDate": {
       "type": "date",
-      "required": true
+      "required": true,
+      "description": "datetime when the parking meter was installed"
     },
     "lastCommunicationDate": {
       "type": "date",
-      "required": true
+      "required": true,
+      "description": "datetime when the parking meter sent the last transactions"
     },
     "comments": {
-      "type": "string"
+      "type": "string",
+      "description": "comments related to this parking meter"
     }
   },
   "validations": [],
