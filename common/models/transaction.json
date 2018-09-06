@@ -71,6 +71,7 @@
       "type": "string"
     },
     "paymentType": {
+      "description": "tipo de pago",
       "type": "string",
       "required": true,
       "enum": [
