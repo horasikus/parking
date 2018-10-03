@@ -1,8 +1,8 @@
 {
   "db": {
-    "host": "",
-    "port": 19060,
-    "database": "",
+    "host": "localhost",
+    "port": 27017,
+    "database": "model-pred",
     "password": "",
     "user": "",
     "connector": "mongodb"
