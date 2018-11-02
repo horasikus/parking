@@ -2,7 +2,7 @@
   "db": {
     "host": "localhost",
     "port": 27017,
-    "database": "model-pred",
+    "database": "parking",
     "password": "",
     "user": "",
     "connector": "mongodb"
