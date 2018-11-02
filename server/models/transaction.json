@@ -2,12 +2,12 @@
   "name": "Transaction",
   "plural": "Transactions",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "transaction_id": {
+    "id": {
       "type": "number",
       "required": true,
       "description": "ID of the transaction"
