@@ -1,25 +1,41 @@
-/*
 module.exports = function (app) {
-  var User = app.models.User;
-  var Role = app.models.Role;
-  var RoleMapping = app.models.RoleMapping;
+  const { User, Role } = app.models;
 
-  User.find({where: {email: 'parkeon@gmail.com'}}, function (err, users) {
+  Role.findOrCreate({
+    name: 'admin',
+  }, {
+    name: 'admin',
+  }, (err, instance, created) => {
     if (err) throw err;
-
-    Role.find({where: {name: 'admin'}}, function (err, role) {
-      if (err) throw err;
-
-      RoleMapping.create({
-        principalType: RoleMapping.USER,
-        principalId: users[0].id,
-        roleId: role.id
-      }, function (err, roleMapping) {
-        if (err) {
-          return console.log(err);
-        }
-      });
-    })
+    if (created) {
+      console.log('Created role:', instance.name);
+    }
   });
-}
-*/
+
+  User.findOrCreate({
+    username: 'miquel.montaner',
+  }, { username: 'miquel.montaner', email: 'miquel@cumlaude.tech', password: 'm1qu3l' }, (err, instance, created) => {
+    if (err) throw err;
+    if (created) {
+      console.log('Created user:', instance.username);
+    }
+  });
+
+  User.findOrCreate({
+    username: 'eymbert.fisersa',
+  }, { username: 'eymbert.fisersa', email: 'eymbert.fisersa@gmail.com', password: 'f1s3rs@' }, (err, instance, created) => {
+    if (err) throw err;
+    if (created) {
+      console.log('Created user:', instance.username);
+    }
+  });
+
+  User.findOrCreate({
+    username: 'parkeon',
+  }, { username: 'parkeon', email: 'parkeon@gmail.com', password: 'park30n' }, (err, instance, created) => {
+    if (err) throw err;
+    if (created) {
+      console.log('Created user:', instance.username);
+    }
+  });
+};
