@@ -7,7 +7,6 @@
   },
   "scripts": {
     "build": "node build.js && babel src -d dist",
-    "lint": "eslint .",
     "start": "node ."
   },
   "dependencies": {

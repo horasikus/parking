@@ -3,7 +3,7 @@
 
 ## Requirements
 
-- [Node v6.10+](https://nodejs.org/en/download/package-manager/)
+- [Node v8.12+](https://nodejs.org/en/download/package-manager/)
 - [mongodb v3.6+] (https://www.mongodb.com/download-center/)
 
 ## Install It
@@ -12,7 +12,7 @@ npm install
 ```
 
 ## Setup mongo connector
-> Edit server/datasources.[NODE_ENV].js
+> Edit dist/datasources.[NODE_ENV].js
 
 ```json
 {
