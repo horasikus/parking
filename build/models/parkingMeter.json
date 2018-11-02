@@ -2,12 +2,12 @@
   "name": "ParkingMeter",
   "plural": "ParkingMeters",
   "base": "PersistedModel",
-  "idInjection": true,
+  "idInjection": false,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "parkingMeter_id": {
+    "id": {
       "type": "number",
       "required": true,
       "description": "ID of the parking meter"
