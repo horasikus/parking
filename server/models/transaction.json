@@ -2,25 +2,22 @@
   "name": "Transaction",
   "plural": "Transactions",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
-  "hidden": ["_id"],
   "properties": {
-    "_id": {
-      "type": "number",
-      "id": true
-    },
     "id": {
       "type": "number",
       "required": true,
-      "description": "ID of the transaction"
+      "description": "ID of the transaction",
+      "id": 1
     },
     "parkingMeter_id": {
       "type": "number",
       "required": true,
-      "description": "ID of the parking meter"
+      "description": "ID of the parking meter",
+      "id": 2
     },
     "date": {
       "type": "date",
