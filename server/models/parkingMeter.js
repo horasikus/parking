@@ -13,4 +13,5 @@ module.exports = function (ParkingMeter) {
   ParkingMeter.disableRemoteMethodByName('replaceById');
   ParkingMeter.disableRemoteMethodByName('replaceOrCreate');
   ParkingMeter.disableRemoteMethodByName('upsertWithWhere');
+  ParkingMeter.validatesUniquenessOf('id', { message: 'id must be unique' });
 };
