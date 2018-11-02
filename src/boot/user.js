@@ -1,7 +1,5 @@
 module.exports = function (app) {
-  const User = app.models.User;
-  const Role = app.models.Role;
-  const RoleMapping = app.models.RoleMapping;
+  const { User, Role, RoleMapping } = app.models;
 
   User.disableRemoteMethod('patchAttributes');
   User.disableRemoteMethodByName('patchOrCreate');
