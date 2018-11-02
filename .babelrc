@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": [
+    ["babel-plugin-object-values-to-object-keys"],
+    ["transform-object-rest-spread"],
+    ["transform-class-properties"]
+  ]
+}

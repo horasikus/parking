@@ -1,0 +1,14 @@
+{
+  "name": "user",
+  "plural": "Users",
+  "base": "User",
+  "excludeBaseProperties": [
+    "realm",
+    "emailVerified"
+  ],
+  "properties": {},
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

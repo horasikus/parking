@@ -1,0 +1,97 @@
+{
+  "name": "ParkingMeter",
+  "plural": "ParkingMeters",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "parkingMeter_id": {
+      "type": "number",
+      "required": true,
+      "description": "ID of the parking meter"
+    },
+    "model": {
+      "type": "string",
+      "required": true,
+      "description": "parking meter model"
+    },
+    "description": {
+      "type": "string",
+      "description": "description of the parking meter"
+    },
+    "status": {
+      "type": "string",
+      "required": true,
+      "description": "current status of the parking meter"
+    },
+    "address": {
+      "type": "string",
+      "required": true,
+      "description": "address where the parking meter is installed"
+    },
+    "geolocation": {
+      "type": {
+        "lat": {
+          "type": "number",
+          "required": true,
+          "description": "latitude where the parking meter is installed"
+        },
+        "lng": {
+          "type": "number",
+          "required": true,
+          "description": "longitude where the parking meter is installed"
+        }
+      },
+      "required": true,
+      "description": "geolocation of the parking meter represented with the inline_model"
+    },
+    "areaType": {
+      "type": "string",
+      "description": "type of the area where the parking meter is installed, for example, green area"
+    },
+    "parkingSpaces": {
+      "type": "number",
+      "description": "number of parking slots that the parking meter covers",
+      "default": 0
+    },
+    "paymentOptions": {
+      "type": [
+        "string"
+      ],
+      "description": "payment options of the parking meter, for example, coins or credit card"
+    },
+    "commissioningDate": {
+      "type": "date",
+      "required": true,
+      "description": "datetime when the parking meter was installed"
+    },
+    "lastCommunicationDate": {
+      "type": "date",
+      "required": true,
+      "description": "datetime when the parking meter sent the last transactions"
+    },
+    "comments": {
+      "type": "string",
+      "description": "comments related to this parking meter"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "admin",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

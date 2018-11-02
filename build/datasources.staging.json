@@ -1,0 +1,10 @@
+{
+  "db": {
+    "host": "ds237120.mlab.com",
+    "port": 37120,
+    "database": "heroku_zmkr1m69",
+    "password": "1g2gmo1gsiibpur9up7qr8j6hh",
+    "user": "heroku_zmkr1m69",
+    "connector": "mongodb"
+  }
+}

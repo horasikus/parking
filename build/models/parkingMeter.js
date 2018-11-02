@@ -1,14 +1,14 @@
 'use strict';
 
-module.exports = function(ParkingMeter) {
-  //ParkingMeter.disableRemoteMethod('patchAttributes');
+module.exports = function (ParkingMeter) {
+  // ParkingMeter.disableRemoteMethod('patchAttributes');
   ParkingMeter.disableRemoteMethodByName('patchOrCreate');
-  //ParkingMeter.disableRemoteMethodByName('create');
+  // ParkingMeter.disableRemoteMethodByName('create');
   ParkingMeter.disableRemoteMethodByName('exists');
-  //ParkingMeter.disableRemoteMethodByName('findById');
-  //ParkingMeter.disableRemoteMethodByName('deleteById');
-  //ParkingMeter.disableRemoteMethodByName('count');
-  //ParkingMeter.disableRemoteMethodByName('find');
+  // ParkingMeter.disableRemoteMethodByName('findById');
+  // ParkingMeter.disableRemoteMethodByName('deleteById');
+  // ParkingMeter.disableRemoteMethodByName('count');
+  // ParkingMeter.disableRemoteMethodByName('find');
   ParkingMeter.disableRemoteMethodByName('findOne');
   ParkingMeter.disableRemoteMethodByName('createChangeStream');
   ParkingMeter.disableRemoteMethodByName('updateAll');

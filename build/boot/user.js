@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function (app) {
   const User = app.models.User;
   const Role = app.models.Role;
@@ -50,7 +52,7 @@ module.exports = function (app) {
           RoleMapping.create({
             principalType: RoleMapping.USER,
             principalId: ctx.instance.id,
-            roleId: role[0].id,
+            roleId: role[0].id
           }, (err, roleMapping) => {
             if (err) {
               return console.log(err);

@@ -1,30 +1,46 @@
 {
   "name": "parking",
   "version": "1.0.0",
-  "main": "server/server.js",
+  "main": "build/server.js",
   "engines": {
     "node": ">=4"
   },
   "scripts": {
+    "build": "node build.js && babel server -d build",
     "lint": "eslint .",
-    "start": "node .",
-    "posttest": "npm run lint && nsp check"
+    "start": "node ."
   },
   "dependencies": {
     "compression": "^1.0.3",
     "cors": "^2.5.2",
+    "csv-parse": "^3.1.3",
+    "csv-stringify": "^4.3.1",
+    "date-fns": "^1.29.0",
     "helmet": "^3.10.0",
     "loopback": "^3.19.0",
     "loopback-boot": "^2.6.5",
     "loopback-component-explorer": "^6.0.0",
     "loopback-connector-mongodb": "^3.4.3",
+    "moment": "^2.22.2",
+    "node-cron": "^2.0.3",
+    "os": "^0.1.1",
     "serve-favicon": "^2.0.1",
     "strong-error-handler": "^2.0.0"
   },
   "devDependencies": {
-    "eslint": "^3.17.1",
-    "eslint-config-loopback": "^8.0.0",
-    "nsp": "^2.1.0"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-object-values-to-object-keys": "^1.0.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "nsp": "^2.1.0",
+    "shelljs": "^0.8.2"
   },
   "repository": {
     "type": "",

@@ -2,16 +2,14 @@
   "name": "ParkingMeter",
   "plural": "ParkingMeters",
   "base": "PersistedModel",
-  "idInjection": false,
+  "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "id": {
+    "parkingMeter_id": {
       "type": "number",
-      "id": true,
       "required": true,
-      "index": true,
       "description": "ID of the parking meter"
     },
     "model": {
@@ -55,8 +53,8 @@
     },
     "parkingSpaces": {
       "type": "number",
-      "default": 0,
-      "description": "number of parking slots that the parking meter covers"
+      "description": "number of parking slots that the parking meter covers",
+      "default": 0
     },
     "paymentOptions": {
       "type": [

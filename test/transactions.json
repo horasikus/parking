@@ -1,0 +1,578 @@
+[
+  {
+    "id": 0,
+    "bookingStartDate": "2018-10-16T15:07:42.923Z",
+    "bookingEndDate": "2018-10-16T16:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 1,
+    "bookingStartDate": "2018-10-16T15:22:42.923Z",
+    "bookingEndDate": "2018-10-16T16:22:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 2,
+    "bookingStartDate": "2018-10-16T15:37:42.923Z",
+    "bookingEndDate": "2018-10-16T16:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 3,
+    "bookingStartDate": "2018-10-16T15:52:42.923Z",
+    "bookingEndDate": "2018-10-16T16:52:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 4,
+    "bookingStartDate": "2018-10-16T16:07:42.923Z",
+    "bookingEndDate": "2018-10-16T17:07:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 5,
+    "bookingStartDate": "2018-10-16T16:22:42.923Z",
+    "bookingEndDate": "2018-10-16T17:22:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 6,
+    "bookingStartDate": "2018-10-16T16:37:42.923Z",
+    "bookingEndDate": "2018-10-16T17:37:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 7,
+    "bookingStartDate": "2018-10-16T16:52:42.923Z",
+    "bookingEndDate": "2018-10-16T17:52:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 8,
+    "bookingStartDate": "2018-10-16T17:07:42.923Z",
+    "bookingEndDate": "2018-10-16T18:07:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 9,
+    "bookingStartDate": "2018-10-16T17:22:42.923Z",
+    "bookingEndDate": "2018-10-16T18:22:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 10,
+    "bookingStartDate": "2018-10-16T17:37:42.923Z",
+    "bookingEndDate": "2018-10-16T18:37:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 11,
+    "bookingStartDate": "2018-10-16T17:52:42.923Z",
+    "bookingEndDate": "2018-10-16T18:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 12,
+    "bookingStartDate": "2018-10-16T18:07:42.923Z",
+    "bookingEndDate": "2018-10-16T19:07:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 13,
+    "bookingStartDate": "2018-10-16T18:22:42.923Z",
+    "bookingEndDate": "2018-10-16T19:22:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 14,
+    "bookingStartDate": "2018-10-16T18:37:42.923Z",
+    "bookingEndDate": "2018-10-16T19:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 15,
+    "bookingStartDate": "2018-10-16T18:52:42.923Z",
+    "bookingEndDate": "2018-10-16T19:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 16,
+    "bookingStartDate": "2018-10-16T19:07:42.923Z",
+    "bookingEndDate": "2018-10-16T20:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 17,
+    "bookingStartDate": "2018-10-16T19:22:42.923Z",
+    "bookingEndDate": "2018-10-16T20:22:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 18,
+    "bookingStartDate": "2018-10-16T19:37:42.923Z",
+    "bookingEndDate": "2018-10-16T20:37:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 19,
+    "bookingStartDate": "2018-10-16T19:52:42.923Z",
+    "bookingEndDate": "2018-10-16T20:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 20,
+    "bookingStartDate": "2018-10-16T20:07:42.923Z",
+    "bookingEndDate": "2018-10-16T21:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 21,
+    "bookingStartDate": "2018-10-16T20:22:42.923Z",
+    "bookingEndDate": "2018-10-16T21:22:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 22,
+    "bookingStartDate": "2018-10-16T20:37:42.923Z",
+    "bookingEndDate": "2018-10-16T21:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 23,
+    "bookingStartDate": "2018-10-16T20:52:42.923Z",
+    "bookingEndDate": "2018-10-16T21:52:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 24,
+    "bookingStartDate": "2018-10-16T21:07:42.923Z",
+    "bookingEndDate": "2018-10-16T22:07:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 25,
+    "bookingStartDate": "2018-10-16T21:22:42.923Z",
+    "bookingEndDate": "2018-10-16T22:22:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 26,
+    "bookingStartDate": "2018-10-16T21:37:42.923Z",
+    "bookingEndDate": "2018-10-16T22:37:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 27,
+    "bookingStartDate": "2018-10-16T21:52:42.923Z",
+    "bookingEndDate": "2018-10-16T22:52:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 28,
+    "bookingStartDate": "2018-10-16T22:07:42.923Z",
+    "bookingEndDate": "2018-10-16T23:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 29,
+    "bookingStartDate": "2018-10-16T22:22:42.923Z",
+    "bookingEndDate": "2018-10-16T23:22:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 30,
+    "bookingStartDate": "2018-10-16T22:37:42.923Z",
+    "bookingEndDate": "2018-10-16T23:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 31,
+    "bookingStartDate": "2018-10-16T22:52:42.923Z",
+    "bookingEndDate": "2018-10-16T23:52:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 32,
+    "bookingStartDate": "2018-10-16T23:07:42.923Z",
+    "bookingEndDate": "2018-10-17T00:07:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 33,
+    "bookingStartDate": "2018-10-16T23:22:42.923Z",
+    "bookingEndDate": "2018-10-17T00:22:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 34,
+    "bookingStartDate": "2018-10-16T23:37:42.923Z",
+    "bookingEndDate": "2018-10-17T00:37:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 35,
+    "bookingStartDate": "2018-10-16T23:52:42.923Z",
+    "bookingEndDate": "2018-10-17T00:52:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 36,
+    "bookingStartDate": "2018-10-17T00:07:42.923Z",
+    "bookingEndDate": "2018-10-17T01:07:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 37,
+    "bookingStartDate": "2018-10-17T00:22:42.923Z",
+    "bookingEndDate": "2018-10-17T01:22:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 38,
+    "bookingStartDate": "2018-10-17T00:37:42.923Z",
+    "bookingEndDate": "2018-10-17T01:37:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 39,
+    "bookingStartDate": "2018-10-17T00:52:42.923Z",
+    "bookingEndDate": "2018-10-17T01:52:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 40,
+    "bookingStartDate": "2018-10-17T01:07:42.923Z",
+    "bookingEndDate": "2018-10-17T02:07:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 41,
+    "bookingStartDate": "2018-10-17T01:22:42.923Z",
+    "bookingEndDate": "2018-10-17T02:22:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 42,
+    "bookingStartDate": "2018-10-17T01:37:42.923Z",
+    "bookingEndDate": "2018-10-17T02:37:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 43,
+    "bookingStartDate": "2018-10-17T01:52:42.923Z",
+    "bookingEndDate": "2018-10-17T02:52:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 44,
+    "bookingStartDate": "2018-10-17T02:07:42.923Z",
+    "bookingEndDate": "2018-10-17T03:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 45,
+    "bookingStartDate": "2018-10-17T02:22:42.923Z",
+    "bookingEndDate": "2018-10-17T03:22:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 46,
+    "bookingStartDate": "2018-10-17T02:37:42.923Z",
+    "bookingEndDate": "2018-10-17T03:37:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 47,
+    "bookingStartDate": "2018-10-17T02:52:42.923Z",
+    "bookingEndDate": "2018-10-17T03:52:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 48,
+    "bookingStartDate": "2018-10-17T03:07:42.923Z",
+    "bookingEndDate": "2018-10-17T04:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 49,
+    "bookingStartDate": "2018-10-17T03:22:42.923Z",
+    "bookingEndDate": "2018-10-17T04:22:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 50,
+    "bookingStartDate": "2018-10-17T03:37:42.923Z",
+    "bookingEndDate": "2018-10-17T04:37:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 51,
+    "bookingStartDate": "2018-10-17T03:52:42.923Z",
+    "bookingEndDate": "2018-10-17T04:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 52,
+    "bookingStartDate": "2018-10-17T04:07:42.923Z",
+    "bookingEndDate": "2018-10-17T05:07:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 53,
+    "bookingStartDate": "2018-10-17T04:22:42.923Z",
+    "bookingEndDate": "2018-10-17T05:22:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 54,
+    "bookingStartDate": "2018-10-17T04:37:42.923Z",
+    "bookingEndDate": "2018-10-17T05:37:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 55,
+    "bookingStartDate": "2018-10-17T04:52:42.923Z",
+    "bookingEndDate": "2018-10-17T05:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 56,
+    "bookingStartDate": "2018-10-17T05:07:42.923Z",
+    "bookingEndDate": "2018-10-17T06:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 57,
+    "bookingStartDate": "2018-10-17T05:22:42.923Z",
+    "bookingEndDate": "2018-10-17T06:22:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 58,
+    "bookingStartDate": "2018-10-17T05:37:42.923Z",
+    "bookingEndDate": "2018-10-17T06:37:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 59,
+    "bookingStartDate": "2018-10-17T05:52:42.923Z",
+    "bookingEndDate": "2018-10-17T06:52:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 60,
+    "bookingStartDate": "2018-10-17T06:07:42.923Z",
+    "bookingEndDate": "2018-10-17T07:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 61,
+    "bookingStartDate": "2018-10-17T06:22:42.923Z",
+    "bookingEndDate": "2018-10-17T07:22:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 62,
+    "bookingStartDate": "2018-10-17T06:37:42.923Z",
+    "bookingEndDate": "2018-10-17T07:37:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 63,
+    "bookingStartDate": "2018-10-17T06:52:42.923Z",
+    "bookingEndDate": "2018-10-17T07:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 64,
+    "bookingStartDate": "2018-10-17T07:07:42.923Z",
+    "bookingEndDate": "2018-10-17T08:07:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 65,
+    "bookingStartDate": "2018-10-17T07:22:42.923Z",
+    "bookingEndDate": "2018-10-17T08:22:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 66,
+    "bookingStartDate": "2018-10-17T07:37:42.923Z",
+    "bookingEndDate": "2018-10-17T08:37:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 67,
+    "bookingStartDate": "2018-10-17T07:52:42.923Z",
+    "bookingEndDate": "2018-10-17T08:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 68,
+    "bookingStartDate": "2018-10-17T08:07:42.923Z",
+    "bookingEndDate": "2018-10-17T09:07:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 69,
+    "bookingStartDate": "2018-10-17T08:22:42.923Z",
+    "bookingEndDate": "2018-10-17T09:22:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 70,
+    "bookingStartDate": "2018-10-17T08:37:42.923Z",
+    "bookingEndDate": "2018-10-17T09:37:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 71,
+    "bookingStartDate": "2018-10-17T08:52:42.923Z",
+    "bookingEndDate": "2018-10-17T09:52:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 72,
+    "bookingStartDate": "2018-10-17T09:07:42.923Z",
+    "bookingEndDate": "2018-10-17T10:07:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 73,
+    "bookingStartDate": "2018-10-17T09:22:42.923Z",
+    "bookingEndDate": "2018-10-17T10:22:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 74,
+    "bookingStartDate": "2018-10-17T09:37:42.923Z",
+    "bookingEndDate": "2018-10-17T10:37:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 75,
+    "bookingStartDate": "2018-10-17T09:52:42.923Z",
+    "bookingEndDate": "2018-10-17T10:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 76,
+    "bookingStartDate": "2018-10-17T10:07:42.923Z",
+    "bookingEndDate": "2018-10-17T11:07:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 77,
+    "bookingStartDate": "2018-10-17T10:22:42.923Z",
+    "bookingEndDate": "2018-10-17T11:22:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 78,
+    "bookingStartDate": "2018-10-17T10:37:42.923Z",
+    "bookingEndDate": "2018-10-17T11:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 79,
+    "bookingStartDate": "2018-10-17T10:52:42.923Z",
+    "bookingEndDate": "2018-10-17T11:52:42.923Z",
+    "rate": "blue"
+  },
+  {
+    "id": 80,
+    "bookingStartDate": "2018-10-17T11:07:42.923Z",
+    "bookingEndDate": "2018-10-17T12:07:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 81,
+    "bookingStartDate": "2018-10-17T11:22:42.923Z",
+    "bookingEndDate": "2018-10-17T12:22:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 82,
+    "bookingStartDate": "2018-10-17T11:37:42.923Z",
+    "bookingEndDate": "2018-10-17T12:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 83,
+    "bookingStartDate": "2018-10-17T11:52:42.923Z",
+    "bookingEndDate": "2018-10-17T12:52:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 84,
+    "bookingStartDate": "2018-10-17T12:07:42.923Z",
+    "bookingEndDate": "2018-10-17T13:07:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 85,
+    "bookingStartDate": "2018-10-17T12:22:42.923Z",
+    "bookingEndDate": "2018-10-17T13:22:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 86,
+    "bookingStartDate": "2018-10-17T12:37:42.923Z",
+    "bookingEndDate": "2018-10-17T13:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 87,
+    "bookingStartDate": "2018-10-17T12:52:42.923Z",
+    "bookingEndDate": "2018-10-17T13:52:42.923Z",
+    "rate": "other"
+  },
+  {
+    "id": 88,
+    "bookingStartDate": "2018-10-17T13:07:42.923Z",
+    "bookingEndDate": "2018-10-17T14:07:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 89,
+    "bookingStartDate": "2018-10-17T13:22:42.923Z",
+    "bookingEndDate": "2018-10-17T14:22:42.923Z",
+    "rate": "green resident"
+  },
+  {
+    "id": 90,
+    "bookingStartDate": "2018-10-17T13:37:42.923Z",
+    "bookingEndDate": "2018-10-17T14:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 91,
+    "bookingStartDate": "2018-10-17T13:52:42.923Z",
+    "bookingEndDate": "2018-10-17T14:52:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 92,
+    "bookingStartDate": "2018-10-17T14:07:42.923Z",
+    "bookingEndDate": "2018-10-17T15:07:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 93,
+    "bookingStartDate": "2018-10-17T14:22:42.923Z",
+    "bookingEndDate": "2018-10-17T15:22:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 94,
+    "bookingStartDate": "2018-10-17T14:37:42.923Z",
+    "bookingEndDate": "2018-10-17T15:37:42.923Z",
+    "rate": "green non-resident"
+  },
+  {
+    "id": 95,
+    "bookingStartDate": "2018-10-17T14:52:42.923Z",
+    "bookingEndDate": "2018-10-17T15:52:42.923Z",
+    "rate": "green non-resident"
+  }
+]
