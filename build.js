@@ -1,8 +1,8 @@
 const s = require('shelljs');
 
-s.rm('-rf', 'build');
-s.mkdir('build');
-s.mkdir('build/models');
-s.cp('-R', './server/explorer', 'build/explorer');
-s.cp('./server/*.json', 'build');
-s.cp('./server/models/*.json', 'build/models');
+s.rm('-rf', 'dist');
+s.mkdir('dist');
+s.mkdir('dist/models');
+s.cp('-R', './src/explorer', 'dist/explorer');
+s.cp('./src/*.json', 'dist');
+s.cp('./src/models/*.json', 'dist/models');

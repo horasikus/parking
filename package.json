@@ -1,12 +1,12 @@
 {
   "name": "parking",
   "version": "1.0.0",
-  "main": "build/server.js",
+  "main": "dist/server.js",
   "engines": {
     "node": ">=4"
   },
   "scripts": {
-    "build": "node build.js && babel server -d build",
+    "build": "node build.js && babel src -d dist",
     "lint": "eslint .",
     "start": "node ."
   },
