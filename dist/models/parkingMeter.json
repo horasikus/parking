@@ -6,16 +6,12 @@
   "options": {
     "validateUpsert": true
   },
-  "hidden": ["_id"],
   "properties": {
-    "_id": {
-      "type": "number",
-      "id": true
-    },
     "id": {
       "type": "number",
       "required": true,
-      "description": "ID of the parking meter"
+      "description": "ID of the parking meter",
+      "id": true
     },
     "model": {
       "type": "string",
