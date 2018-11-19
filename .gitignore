@@ -19,3 +19,5 @@ node_modules
 statistics
 test
 npm-debug.log
+transactions
+transactions_zone
