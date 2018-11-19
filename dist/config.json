@@ -28,6 +28,7 @@
         "zone": [
           {
             "name": "Estació",
+            "code": "ZONA_1",
             "parkingMeter": [
               "28",
               "38",
@@ -36,6 +37,7 @@
           },
           {
             "name": "Méndez-Núñez - St. Antoni",
+            "code": "ZONA_2",
             "parkingMeter": [
               "21",
               "23",
@@ -55,6 +57,7 @@
           },
           {
             "name": "Nou",
+            "code": "ZONA_3",
             "parkingMeter": [
               "2",
               "3",
@@ -68,6 +71,7 @@
           },
           {
             "name": "Centre",
+            "code": "ZONA_4",
             "parkingMeter": [
               "7",
               "15",
@@ -81,6 +85,7 @@
           },
           {
             "name": "Museu Dalí - Tramuntana",
+            "code": "ZONA_5",
             "parkingMeter": [
               "36",
               "37",
@@ -91,6 +96,7 @@
           },
           {
             "name": "Blava dins àrea verda - Fase 1",
+            "code": "ZONA_6",
             "parkingMeter": [
               "58",
               "59",
@@ -103,6 +109,7 @@
           },
           {
             "name": "Hospital",
+            "code": "ZONA_7",
             "parkingMeter": [
               "10",
               "47",
@@ -111,6 +118,7 @@
           },
           {
             "name": "Àrea verda",
+            "code": "ZONA_8",
             "parkingMeter": [
               "67",
               "68",
@@ -122,6 +130,7 @@
           },
           {
             "name": "Zona proves",
+            "code": "ZONA_9",
             "parkingMeter": [
               "85",
               "86",

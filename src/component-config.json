@@ -7,5 +7,16 @@
       "title": "Parking API",
       "description": "Management of the parking service"
     }
+  },
+  "loopback-component-log": {
+    "enabled": true,
+    "name": "logger",
+    "http": true,
+    "level": "trace",
+    "useStdOut": true,
+    "useLogFile": true,
+    "path": "./logs",
+    "maxResponseTime": 30000,
+    "excludes": ["req","res"]
   }
 }
