@@ -17,6 +17,14 @@
     "lastUpdate": {
       "type": "date",
       "required": true
+    },
+    "endDate": {
+      "type": "date",
+      "required": true
+    },
+    "results": {
+      "type": "object",
+      "required": true
     }
   },
   "validations": [],

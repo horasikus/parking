@@ -1,7 +1,5 @@
 'use strict';
 
-var _dateFns = require('date-fns');
-
 var _statistics = require('../lib/statistics');
 
 var _server = require('../server');
@@ -12,17 +10,16 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const statistics = _server2.default.get('statistics');
 
-const initStatisticsTasks = cronTime => statistics.cities.forEach(city => {
-  const currentDate = new Date(2017, 11, 31); // 31-12-2017 december
-  for (let i = 1; i <= 48; i++) {
-    const taskInfo = {
-      taskName: statistics.taskName,
-      // cronTime,
-      city,
-      currentDate: (0, _dateFns.addMinutes)(currentDate, i * 30)
-    };
-    (0, _statistics.init)(taskInfo);
-  }
-});
+async function initStatisticsTasks() {
+  statistics.cities.forEach(async city => {
+    for (let i = 0; i < 1000; i++) {
+      await (0, _statistics.run)({
+        taskName: statistics.taskName,
+        city,
+        currentDate: new Date(2017, 11, 23) // 25-12-2017 december,
+      });
+    }
+  });
+}
 
-initStatisticsTasks(statistics.cronTime);
+initStatisticsTasks();
