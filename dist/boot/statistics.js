@@ -12,11 +12,11 @@ const statistics = _server2.default.get('statistics');
 
 async function initStatisticsTasks() {
   statistics.cities.forEach(async city => {
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 100000; i++) {
       await (0, _statistics.run)({
         taskName: statistics.taskName,
         city,
-        currentDate: new Date(2017, 11, 23) // 25-12-2017 december,
+        currentDate: new Date(2017, 11, 20) // 25-12-2017 december,
       });
     }
   });
