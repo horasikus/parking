@@ -17,6 +17,8 @@ var _csv = require('./csv');
 
 var _csv2 = _interopRequireDefault(_csv);
 
+var _transaction = require('./transaction');
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const run = exports.run = async taskInfo => {
@@ -27,7 +29,8 @@ const run = exports.run = async taskInfo => {
     const baseline = await (0, _task.find)(taskInfo);
     const statistics = new _statistics2.default(taskInfo, baseline);
     const transactions = await statistics.getTransactions();
-    const results = statistics.generate(transactions);
+    const txs = (0, _transaction.groupByZone)(transactions, taskInfo.city.zone);
+    const results = statistics.generate(txs);
     const csv = new _csv2.default(statistics);
     csv.save(csv.generate(results));
     await (0, _task.update)(taskInfo, statistics, results);

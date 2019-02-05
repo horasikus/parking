@@ -9,7 +9,7 @@ async function initStatisticsTasks() {
       await run({
         taskName: statistics.taskName,
         city,
-        currentDate: new Date(2017, 11, 20), // 25-12-2017 december,
+        currentDate: new Date(2017, 11, 1), // 25-12-2017 december,
       });
     }
   });
