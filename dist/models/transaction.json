@@ -107,6 +107,23 @@
       "type": "number",
       "required": true,
       "description": "total of minuted of the reservation (from the starting date to the end date)"
+    },
+    "geolocation": {
+      "type": {
+        "lat": {
+          "type": "number",
+          "description": "latitude"
+        },
+        "lng": {
+          "type": "number",
+          "description": "longitude"
+        }
+      },
+      "description": "geolocation"
+    },
+    "zoneCode": {
+      "type": "string",
+      "description": "zone"
     }
   },
   "validations": [],

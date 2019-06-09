@@ -10,16 +10,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 const statistics = _server2.default.get('statistics');
 
-async function initStatisticsTasks() {
-  statistics.cities.forEach(async city => {
-    for (let i = 0; i < 100000; i++) {
-      await (0, _statistics.run)({
-        taskName: statistics.taskName,
-        city,
-        currentDate: new Date(2017, 11, 1) // 25-12-2017 december,
-      });
-    }
-  });
-}
+const initStatisticsTasks = cronTime => statistics.cities.forEach(async city => {
+  const taskInfo = {
+    taskName: statistics.taskName,
+    cronTime,
+    city: city.name,
+    currentDate: new Date() // 01-6-2019,
+  };
+  (0, _statistics.init)(taskInfo);
+});
 
-initStatisticsTasks();
+initStatisticsTasks(statistics.cronTime);
